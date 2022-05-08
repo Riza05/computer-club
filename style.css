@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    height: 600px;
+    background-image: url("img/Дизайн\ без\ названия.png");
+}
+
+.head_two {
+    height: 70px;
+    border-bottom: 5px #fc68ff solid;
+}
+
+.logo {
+    background: url("img/Добавить\ подзаголовок.png");
+    width: 110px;
+    height: 110px;
+    background-size: cover;
+    border-radius: 100px;
+    position: absolute;
+    margin: 20px 50px;
+}
+
+.menu {
+    display: flex;
+    margin: 25px 200px;
+    position: absolute;
+    color: #fc68ff;
+}
+
+li {
+    margin-left: 103px;
+}
