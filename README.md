@@ -1,1 +1,1 @@
-# computer-club
+# computer
