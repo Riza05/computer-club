@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    height: 600px;
+    background-image: url("img/Дизайн\ без\ названия.png");
+}
+
+.name h1 {
+    position: absolute;
+    margin: 230px 350px;
+    width: max-content;
+    font-size: 100px;
+    color: #cf50d1;
+}
+
+.name h2 {
+    position: absolute;
+    margin: 350px 500px;
+    font-size: xx-large;
+    width: max-content;
+    color: #cf50d1;
+}
+
+.name h2 {
+    animation: n 3s infinite alternate-reverse;
+}
+
+.name h1 {
+    animation: n 3s infinite alternate-reverse;
+}
+
+@keyframes n {
+    0% {
+        color: #A770EF;
+    }
+
+    50% {
+        color: #CF8BF3;
+    }
+
+    100% {
+        color: #FDB99B;
+    }
+}
+
+.head_two {
+    height: 70px;
+    border-bottom: 3px #fc68ff solid;
+}
+
+.logo {
+    background: url("img/Добавить\ подзаголовок.png");
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    border-radius: 100px;
+    position: absolute;
+    margin: 10px 585px;
+}
+
+.menu {
+    display: flex;
+    margin: 25px -105px;
+    position: absolute;
+    list-style: none;
+    text-decoration: none;
+}
+
+li {
+    margin-left: 205px;
+    animation: m 3s infinite alternate-reverse;
+    color: #3b0056;
+}
+
+@keyframes m {
+    0% {
+        color: #A770EF;
+        border-radius: 5px;
+    }
+
+    50% {
+        color: #CF8BF3;
+        border-radius: 5px;
+    }
+
+    100% {
+        color: #FDB99B;
+        border-radius: 5px;
+    }
+}
+
+li:hover {
+    border: 2px #A770EF solid;
+}
