@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    color: #e2a2ff;
 }
 
 .head {
@@ -11,9 +10,10 @@
 
 .name h1 {
     position: absolute;
-    margin: 230px 355px;
+    margin: 230px 350px;
     width: max-content;
     font-size: 100px;
+    color: #cf50d1;
 }
 
 .name h2 {
@@ -21,6 +21,29 @@
     margin: 350px 500px;
     font-size: xx-large;
     width: max-content;
+    color: #cf50d1;
+}
+
+.name h2 {
+    animation: n 3s infinite alternate-reverse;
+}
+
+.name h1 {
+    animation: n 3s infinite alternate-reverse;
+}
+
+@keyframes n {
+    0% {
+        color: #A770EF;
+    }
+
+    50% {
+        color: #CF8BF3;
+    }
+
+    100% {
+        color: #FDB99B;
+    }
 }
 
 .head_two {
@@ -48,4 +71,27 @@
 
 li {
     margin-left: 205px;
+    animation: m 3s infinite alternate-reverse;
+    color: #3b0056;
+}
+
+@keyframes m {
+    0% {
+        color: #A770EF;
+        border-radius: 5px;
+    }
+
+    50% {
+        color: #CF8BF3;
+        border-radius: 5px;
+    }
+
+    100% {
+        color: #FDB99B;
+        border-radius: 5px;
+    }
+}
+
+li:hover {
+    border: 2px #A770EF solid;
 }
