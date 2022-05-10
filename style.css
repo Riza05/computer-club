@@ -6,6 +6,7 @@
 .head {
     height: 600px;
     background-image: url("img/Дизайн\ без\ названия.png");
+    background-size: cover;
 }
 
 .name h1 {
@@ -26,23 +27,25 @@
 
 .name h2 {
     animation: n 3s infinite alternate-reverse;
+    opacity: 0;
+    animation: o 2s forwards;
 }
 
 .name h1 {
     animation: n 3s infinite alternate-reverse;
+    opacity: 0;
+    animation: o 3s forwards;
 }
 
-@keyframes n {
+@keyframes o {
     0% {
-        color: #A770EF;
-    }
-
-    50% {
-        color: #CF8BF3;
+        color: #FDB99B;
+        opacity: 0;
     }
 
     100% {
-        color: #FDB99B;
+        color: #CF8BF3;
+        opacity: 1;
     }
 }
 
@@ -103,17 +106,17 @@ li:hover {
 
 @keyframes s {
     0% {
-        left: 0px;
+        top: 0px;
         background-color: #ad5389;
     }
 
     100% {
-        left: 200px;
+        top: 200px;
         background-color: #3c1053;
     }
 }
 
-.sec1 {
+.text {
     position: absolute;
     margin: 250px 100px;
     font-size: 30px;
@@ -132,4 +135,157 @@ li:hover {
     width: 354px;
     height: 132px;
     border: 1px #FDB99B solid;
+}
+
+.sec2 {
+    height: 700px;
+    animation: s2 2s infinite alternate-reverse;
+}
+
+@keyframes s2 {
+    0% {
+        top: 0px;
+        background-color: #cc2b5e;
+    }
+
+    100% {
+        top: 200%;
+        background-color: #753a88;
+    }
+}
+
+.main_block {
+    height: 600px;
+    width: 1100px;
+    margin: 50px 80px;
+    position: absolute;
+    display: flex;
+}
+
+.blocks {
+    border-radius: 5px;
+    width: 550px;
+}
+
+.mini_block {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 1px #FDB99B solid;
+    margin: 60px 170px;
+}
+
+.h2 {
+    margin: 220px 35px;
+    position: absolute;
+    color: #FDB99B;
+}
+
+.sec3 {
+    height: 600px;
+    animation: s3 2s infinite alternate-reverse;
+}
+
+@keyframes s3 {
+    0% {
+        top: 0px;
+        background-color: #ad5389;
+    }
+
+    100% {
+        top: 200px;
+        background-color: #3c1053;
+    }
+}
+
+.gallery2 {
+    color: #fdb99b;
+    margin: 70px 45%;
+    position: absolute;
+}
+
+.sec4 {
+    height: 600px;
+    background-image: url("img/Дизайн\ без\ названия\ \(1\).png");
+    background-size: cover;
+}
+
+.text2 {
+    position: absolute;
+    margin: 50px 310px;
+    width: max-content;
+    font-size: 50px;
+    color: #FDB99B;
+}
+
+.arr {
+    width: min-content;
+    margin: 210px 580px;
+    position: absolute;
+}
+
+.arrow {
+    width: 60px;
+    height: 60px;
+    border-top: 10px solid #6E18C0;
+    border-right: 10px solid #6E18C0;
+    transform: rotate(135deg);
+    animation: a 3s infinite;
+}
+
+@keyframes a {
+    0% {
+        color: #A770EF;
+    }
+
+    50% {
+        color: #CF8BF3;
+    }
+
+    100% {
+        color: #FDB99B;
+    }
+}
+
+.btn {
+    font-size: 40px;
+    text-decoration: none;
+    position: absolute;
+    margin: 480px 530px;
+    background-color: transparent;
+    color: #FDB99B;
+    border: 5px #FDB99B solid;
+    border-radius: 10px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.btn .flare {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 45px;
+    transform: skewX(-45deg);
+    animation: flareAnimation;
+    left: -150%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+    animation: b 2s infinite linear;
+}
+
+@keyframes b {
+    0% {
+        left: -150%;
+    }
+
+    100% {
+        left: 150%;
+    }
+}
+
+.btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transition: 1s;
+    border-color: #6E18C0;
+    color: #6E18C0;
+    background-color: #FDB99B;
 }
