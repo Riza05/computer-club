@@ -95,3 +95,41 @@ li {
 li:hover {
     border: 2px #A770EF solid;
 }
+
+.sec {
+    height: 600px;
+    animation: s 2s infinite alternate-reverse;
+}
+
+@keyframes s {
+    0% {
+        left: 0px;
+        background-color: #ad5389;
+    }
+
+    100% {
+        left: 200px;
+        background-color: #3c1053;
+    }
+}
+
+.sec1 {
+    position: absolute;
+    margin: 250px 100px;
+    font-size: 30px;
+    color: #FDB99B;
+}
+
+.img {
+    height: 402px;
+    width: 355px;
+    border: 2px #FDB99B solid;
+    position: absolute;
+    margin: 100px 800px;
+}
+
+.block {
+    width: 354px;
+    height: 132px;
+    border: 1px #FDB99B solid;
+}
