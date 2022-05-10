@@ -289,3 +289,15 @@ li:hover {
     color: #6E18C0;
     background-color: #FDB99B;
 }
+
+.foo {
+    height: 200px;
+    background-color: #772880;
+}
+
+.contacts {
+    position: absolute;
+    font-size: 20px;
+    margin: 45px 130px;
+    color: #FDB99B;
+}
