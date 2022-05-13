@@ -1,17 +1,19 @@
 * {
     margin: 0;
     padding: 0;
+    background-size: cover;
+    text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 .head {
     height: 600px;
     background-image: url("img/Дизайн\ без\ названия.png");
-    background-size: cover;
 }
 
 .name h1 {
     position: absolute;
-    margin: 230px 350px;
+    margin: 230px 330px;
     width: max-content;
     font-size: 100px;
     color: #cf50d1;
@@ -19,7 +21,7 @@
 
 .name h2 {
     position: absolute;
-    margin: 350px 500px;
+    margin: 350px 475px;
     font-size: xx-large;
     width: max-content;
     color: #cf50d1;
@@ -61,15 +63,14 @@
     background-size: cover;
     border-radius: 100px;
     position: absolute;
-    margin: 10px 585px;
+    margin: 10px 560px;
 }
 
 .menu {
     display: flex;
-    margin: 25px -105px;
+    margin: 25px -65px;
     position: absolute;
     list-style: none;
-    text-decoration: none;
 }
 
 li {
@@ -137,6 +138,31 @@ li:hover {
     border: 1px #FDB99B solid;
 }
 
+.one {
+    background-image: url("img/bad90deefe.jpg");
+    animation: bo 2s infinite alternate-reverse;
+}
+
+.two {
+    background-image: url("img/xxl-1-6_e04de37f3c4ad3ca11453fada2d1af2b.jpg");
+    animation: bo 2s infinite alternate-reverse;
+}
+
+.three {
+    background-image: url("img/photo-cyber-clubSR1.jpg");
+    animation: bo 2s infinite alternate-reverse;
+}
+
+@keyframes bo {
+    0% {
+        background-position-y: -105px;
+    }
+
+    100% {
+        background-position-y: 0px;
+    }
+}
+
 .sec2 {
     height: 700px;
     animation: s2 2s infinite alternate-reverse;
@@ -175,8 +201,24 @@ li:hover {
     margin: 60px 170px;
 }
 
+.bl1 {
+    background-image: url("img/dsc4025.jpg");
+}
+
+.bl2 {
+    background-image: url("img/XXL.jpg");
+}
+
+.bl3 {
+    background-image: url("img/h220.jpg");
+}
+
+.bl4 {
+    background-image: url("img/6aef53ad7b85b5cf307cd91435ac0b62-300x200.jpg");
+}
+
 .h2 {
-    margin: 220px 35px;
+    margin: 220px 23px;
     position: absolute;
     color: #FDB99B;
 }
@@ -204,10 +246,61 @@ li:hover {
     position: absolute;
 }
 
+.h {
+    height: 450px;
+    border: 1px black solid;
+    margin-top: 148px;
+    position: absolute;
+    width: 1261px;
+}
+
+.qwe {
+    height: 223px;
+    border: 1px white solid;
+    display: flex;
+}
+
+.q {
+    height: 170px;
+    border: 1px black solid;
+    width: 250px;
+    margin: 25px 85px;
+}
+
+.q:hover {
+    transition: 2s;
+    width: 900px;
+    height: 300px;
+    z-index: 10;
+}
+
+.q1 {
+    background-image: url("img/Colizeum.jpg");
+}
+
+.q2 {
+    background-image: url("img/Colizeum1.jpg");
+}
+
+.q3 {
+    background-image: url("img/Colizeum2.jpg");
+}
+
+.q4 {
+    background-image: url("img/Colizeum3.jpg");
+}
+
+.q5 {
+    background-image: url("img/Colizeum4.jpg");
+}
+
+.q6 {
+    background-image: url("img/Colizeum5.jpg");
+}
+
 .sec4 {
     height: 600px;
     background-image: url("img/Дизайн\ без\ названия\ \(1\).png");
-    background-size: cover;
 }
 
 .text2 {
@@ -249,7 +342,6 @@ li:hover {
 
 .btn {
     font-size: 40px;
-    text-decoration: none;
     position: absolute;
     margin: 480px 530px;
     background-color: transparent;
@@ -295,7 +387,7 @@ li:hover {
     background-color: #772880;
 }
 
-.contacts {
+.cont {
     position: absolute;
     font-size: 20px;
     margin: 45px 130px;
